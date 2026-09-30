@@ -1,0 +1,1210 @@
+{
+  "attach_not_signed_document": "",
+  "attach_signed_document": "",
+  "calendar_view": null,
+  "chart_view": null,
+  "company_id": 28086,
+  "create_requester_view": null,
+  "create_view": {
+    "columns": [
+      {
+        "config": {
+          "allow_qrcode_scanner": false,
+          "data_field_auto": [],
+          "data_source": {
+            "form": {
+              "approval_flow": {
+                "config": {
+                  "workflow_function_name": ""
+                },
+                "is_active": false
+              },
+              "class": {
+                "object": {
+                  "id": {
+                    "formula": "",
+                    "initial_value": "",
+                    "is_primary_key": false,
+                    "is_use_regex": false,
+                    "is_use_validation": false,
+                    "name": "id",
+                    "type": "text",
+                    "validation_container_message": "",
+                    "validation_container_variable": "",
+                    "validation_script": ""
+                  },
+                  "name": {
+                    "formula": "",
+                    "initial_value": "",
+                    "is_primary_key": false,
+                    "is_use_regex": false,
+                    "is_use_validation": false,
+                    "name": "name",
+                    "type": "text",
+                    "validation_container_message": "",
+                    "validation_container_variable": "",
+                    "validation_script": ""
+                  }
+                }
+              },
+              "columns": {
+                "created_at": {
+                  "formula": "",
+                  "initial_value": "",
+                  "is_primary_key": false,
+                  "is_use_regex": false,
+                  "is_use_validation": false,
+                  "name": "created_at",
+                  "type": "timestamp",
+                  "validation_container_message": "",
+                  "validation_container_variable": "",
+                  "validation_script": ""
+                },
+                "created_at_offline": {
+                  "formula": "",
+                  "initial_value": "",
+                  "is_primary_key": false,
+                  "is_use_regex": false,
+                  "is_use_validation": false,
+                  "name": "created_at_offline",
+                  "type": "timestamp",
+                  "validation_container_message": "",
+                  "validation_container_variable": "",
+                  "validation_script": ""
+                },
+                "created_by": {
+                  "formula": "",
+                  "initial_value": "",
+                  "is_primary_key": false,
+                  "is_use_regex": false,
+                  "is_use_validation": false,
+                  "name": "created_by",
+                  "type": "number",
+                  "validation_container_message": "",
+                  "validation_container_variable": "",
+                  "validation_script": ""
+                },
+                "created_by_project_user": {
+                  "formula": "",
+                  "initial_value": "",
+                  "is_primary_key": false,
+                  "is_use_regex": false,
+                  "is_use_validation": false,
+                  "name": "created_by_project_user",
+                  "type": "text",
+                  "validation_container_message": "",
+                  "validation_container_variable": "",
+                  "validation_script": ""
+                },
+                "flow_status": {
+                  "formula": "",
+                  "initial_value": "",
+                  "is_primary_key": false,
+                  "is_use_regex": false,
+                  "is_use_validation": false,
+                  "name": "flow_status",
+                  "type": "text",
+                  "validation_container_message": "",
+                  "validation_container_variable": "",
+                  "validation_script": ""
+                },
+                "group_access_id": {
+                  "formula": "",
+                  "initial_value": "",
+                  "is_primary_key": true,
+                  "is_use_regex": false,
+                  "is_use_validation": false,
+                  "name": "group_access_id",
+                  "type": "text",
+                  "validation_container_message": "",
+                  "validation_container_variable": "",
+                  "validation_script": ""
+                },
+                "name": {
+                  "formula": "",
+                  "initial_value": "",
+                  "is_primary_key": false,
+                  "is_use_regex": false,
+                  "is_use_validation": false,
+                  "name": "name",
+                  "type": "text",
+                  "validation_container_message": "",
+                  "validation_container_variable": "",
+                  "validation_script": ""
+                },
+                "updated_at_offline": {
+                  "formula": "",
+                  "initial_value": "",
+                  "is_primary_key": false,
+                  "is_use_regex": false,
+                  "is_use_validation": false,
+                  "name": "updated_at_offline",
+                  "type": "timestamp",
+                  "validation_container_message": "",
+                  "validation_container_variable": "",
+                  "validation_script": ""
+                },
+                "updated_by_project_user": {
+                  "formula": "",
+                  "initial_value": "",
+                  "is_primary_key": false,
+                  "is_use_regex": false,
+                  "is_use_validation": false,
+                  "name": "updated_by_project_user",
+                  "type": "text",
+                  "validation_container_message": "",
+                  "validation_container_variable": "",
+                  "validation_script": ""
+                }
+              },
+              "company_id": 28086,
+              "created_at": 1783046680586,
+              "created_by": 197826,
+              "data_type": "group_access",
+              "id": "CmiW5TkSCr5",
+              "is_disable_audit_log": false,
+              "is_limit_maximum_data": false,
+              "is_offline_mode": false,
+              "is_public": false,
+              "is_share_device_info": false,
+              "is_use_workflow": false,
+              "name": "group_access",
+              "primary_key": "group_access_id",
+              "project_id": "wGki1P0fpJch",
+              "rate_limit": {
+                "active": false,
+                "limit_per_second": 0
+              },
+              "security": {
+                "create": "",
+                "delete": "",
+                "update": "",
+                "view": ""
+              },
+              "size": "",
+              "tablegroup_id": "GkAzOudUYcy4",
+              "type": "transaction",
+              "version": 0,
+              "workflow": {
+                "approver_by": "by_organigram",
+                "approver_selection": "",
+                "by_organigram_id": null,
+                "default_rule": {
+                  "rule_id": 0
+                },
+                "function_name": "",
+                "type": ""
+              }
+            },
+            "search_data_option": "name",
+            "set_value_selected": "group_access_id",
+            "show_data_option": "name",
+            "table_group": null
+          },
+          "direct_open_detail": {
+            "form_ui_id": "",
+            "is_use_direct_open_detail": false
+          },
+          "field_key": "",
+          "filter": {},
+          "filter_column": "",
+          "filter_operator": "and",
+          "init_value": null,
+          "is_auto_fill": false,
+          "is_auto_show": true,
+          "is_value_change": false,
+          "is_with_param": false,
+          "on_value_change": "",
+          "sort": [
+            {
+              "created_at": -1
+            }
+          ]
+        },
+        "field_data_key": "group_access",
+        "field_ui_key": "group_access",
+        "grid_size": 12,
+        "is_disable": false,
+        "is_hidden": false,
+        "is_mandatory": true,
+        "name": "Group Access",
+        "options": null,
+        "placeholder": "",
+        "type": "relation_record"
+      },
+      {
+        "config": {
+          "allow_qrcode_scanner": false,
+          "data_field_auto": [],
+          "data_source": {
+            "form": {
+              "approval_flow": {
+                "config": {
+                  "workflow_function_name": ""
+                },
+                "is_active": false
+              },
+              "class": {
+                "object": {
+                  "id": {
+                    "formula": "",
+                    "initial_value": "",
+                    "is_primary_key": false,
+                    "is_use_regex": false,
+                    "is_use_validation": false,
+                    "name": "id",
+                    "type": "text",
+                    "validation_container_message": "",
+                    "validation_container_variable": "",
+                    "validation_script": ""
+                  },
+                  "name": {
+                    "formula": "",
+                    "initial_value": "",
+                    "is_primary_key": false,
+                    "is_use_regex": false,
+                    "is_use_validation": false,
+                    "name": "name",
+                    "type": "text",
+                    "validation_container_message": "",
+                    "validation_container_variable": "",
+                    "validation_script": ""
+                  }
+                }
+              },
+              "columns": {
+                "app_owner": {
+                  "formula": "",
+                  "initial_value": "",
+                  "is_primary_key": false,
+                  "is_use_regex": false,
+                  "is_use_validation": false,
+                  "name": "app_owner",
+                  "type": "boolean",
+                  "validation_container_message": "",
+                  "validation_container_variable": "",
+                  "validation_script": ""
+                },
+                "created_at": {
+                  "formula": "",
+                  "initial_value": "",
+                  "is_primary_key": false,
+                  "is_use_regex": false,
+                  "is_use_validation": false,
+                  "name": "created_at",
+                  "type": "timestamp",
+                  "validation_container_message": "",
+                  "validation_container_variable": "",
+                  "validation_script": ""
+                },
+                "created_at_offline": {
+                  "formula": "",
+                  "initial_value": "",
+                  "is_primary_key": false,
+                  "is_use_regex": false,
+                  "is_use_validation": false,
+                  "name": "created_at_offline",
+                  "type": "timestamp",
+                  "validation_container_message": "",
+                  "validation_container_variable": "",
+                  "validation_script": ""
+                },
+                "created_by": {
+                  "formula": "",
+                  "initial_value": "",
+                  "is_primary_key": false,
+                  "is_use_regex": false,
+                  "is_use_validation": false,
+                  "name": "created_by",
+                  "type": "number",
+                  "validation_container_message": "",
+                  "validation_container_variable": "",
+                  "validation_script": ""
+                },
+                "created_by_project_user": {
+                  "formula": "",
+                  "initial_value": "",
+                  "is_primary_key": false,
+                  "is_use_regex": false,
+                  "is_use_validation": false,
+                  "name": "created_by_project_user",
+                  "type": "text",
+                  "validation_container_message": "",
+                  "validation_container_variable": "",
+                  "validation_script": ""
+                },
+                "created_by_user": {
+                  "formula": "",
+                  "initial_value": "",
+                  "is_primary_key": false,
+                  "is_use_regex": false,
+                  "is_use_validation": false,
+                  "name": "created_by_user",
+                  "type": "text",
+                  "validation_container_message": "",
+                  "validation_container_variable": "",
+                  "validation_script": ""
+                },
+                "email": {
+                  "formula": "",
+                  "initial_value": "",
+                  "is_primary_key": false,
+                  "is_use_regex": false,
+                  "is_use_validation": false,
+                  "name": "email",
+                  "type": "text",
+                  "validation_container_message": "",
+                  "validation_container_variable": "",
+                  "validation_script": ""
+                },
+                "flow_status": {
+                  "formula": "",
+                  "initial_value": "",
+                  "is_primary_key": false,
+                  "is_use_regex": false,
+                  "is_use_validation": false,
+                  "name": "flow_status",
+                  "type": "text",
+                  "validation_container_message": "",
+                  "validation_container_variable": "",
+                  "validation_script": ""
+                },
+                "name": {
+                  "formula": "",
+                  "initial_value": "",
+                  "is_primary_key": false,
+                  "is_use_regex": false,
+                  "is_use_validation": false,
+                  "name": "name",
+                  "type": "text",
+                  "validation_container_message": "",
+                  "validation_container_variable": "",
+                  "validation_script": ""
+                },
+                "status": {
+                  "formula": "",
+                  "initial_value": "",
+                  "is_primary_key": false,
+                  "is_use_regex": false,
+                  "is_use_validation": false,
+                  "name": "status",
+                  "type": "text",
+                  "validation_container_message": "",
+                  "validation_container_variable": "",
+                  "validation_script": ""
+                },
+                "updated_at_offline": {
+                  "formula": "",
+                  "initial_value": "",
+                  "is_primary_key": false,
+                  "is_use_regex": false,
+                  "is_use_validation": false,
+                  "name": "updated_at_offline",
+                  "type": "timestamp",
+                  "validation_container_message": "",
+                  "validation_container_variable": "",
+                  "validation_script": ""
+                },
+                "updated_by_project_user": {
+                  "formula": "",
+                  "initial_value": "",
+                  "is_primary_key": false,
+                  "is_use_regex": false,
+                  "is_use_validation": false,
+                  "name": "updated_by_project_user",
+                  "type": "text",
+                  "validation_container_message": "",
+                  "validation_container_variable": "",
+                  "validation_script": ""
+                },
+                "updated_by_user": {
+                  "formula": "",
+                  "initial_value": "",
+                  "is_primary_key": false,
+                  "is_use_regex": false,
+                  "is_use_validation": false,
+                  "name": "updated_by_user",
+                  "type": "text",
+                  "validation_container_message": "",
+                  "validation_container_variable": "",
+                  "validation_script": ""
+                },
+                "user_id": {
+                  "formula": "",
+                  "initial_value": "",
+                  "is_primary_key": true,
+                  "is_use_regex": false,
+                  "is_use_validation": false,
+                  "name": "user_id",
+                  "type": "text",
+                  "validation_container_message": "",
+                  "validation_container_variable": "",
+                  "validation_script": ""
+                }
+              },
+              "company_id": 28086,
+              "created_at": 1783046680115,
+              "created_by": 197826,
+              "data_type": "user",
+              "id": "zYjrbSVcbw8R",
+              "is_disable_audit_log": false,
+              "is_limit_maximum_data": false,
+              "is_offline_mode": false,
+              "is_public": false,
+              "is_share_device_info": false,
+              "is_use_workflow": false,
+              "name": "user",
+              "primary_key": "user_id",
+              "project_id": "wGki1P0fpJch",
+              "rate_limit": {
+                "active": false,
+                "limit_per_second": 0
+              },
+              "security": {
+                "create": "",
+                "delete": "",
+                "update": "",
+                "view": ""
+              },
+              "size": "",
+              "tablegroup_id": "GkAzOudUYcy4",
+              "type": "transaction",
+              "version": 0,
+              "workflow": {
+                "approver_by": "by_organigram",
+                "approver_selection": "",
+                "by_organigram_id": null,
+                "default_rule": {
+                  "rule_id": 0
+                },
+                "function_name": "",
+                "type": ""
+              }
+            },
+            "search_data_option": "email",
+            "set_value_selected": "user_id",
+            "show_data_option": "email",
+            "table_group": null
+          },
+          "direct_open_detail": {
+            "form_ui_id": "",
+            "is_use_direct_open_detail": false
+          },
+          "field_key": "",
+          "filter": {},
+          "filter_column": "",
+          "filter_operator": "and",
+          "init_value": null,
+          "is_auto_fill": false,
+          "is_auto_show": true,
+          "is_value_change": false,
+          "is_with_param": false,
+          "on_value_change": "",
+          "sort": [
+            {
+              "created_at": -1
+            }
+          ]
+        },
+        "field_data_key": "user",
+        "field_ui_key": "user",
+        "grid_size": 12,
+        "is_disable": false,
+        "is_hidden": false,
+        "is_mandatory": true,
+        "name": "User",
+        "options": null,
+        "placeholder": "",
+        "type": "relation_record"
+      }
+    ],
+    "description": "",
+    "title": "Create group_access_member"
+  },
+  "created_at": 1783046681108,
+  "created_by": 197826,
+  "data_source": null,
+  "detail_approver_view": null,
+  "detail_requester_view": null,
+  "detail_view": {
+    "action_buttons": null,
+    "columns": [
+      {
+        "config": null,
+        "field_data_key": "group_access_member_id",
+        "field_ui_key": "group_access_member_id",
+        "grid_size": 12,
+        "is_disable": true,
+        "is_hidden": true,
+        "is_mandatory": false,
+        "name": "Group Access Member Id",
+        "options": null,
+        "placeholder": "",
+        "type": "text"
+      },
+      {
+        "config": {
+          "allow_qrcode_scanner": false,
+          "data_field_auto": [],
+          "data_source": {
+            "form": {
+              "approval_flow": {
+                "config": {
+                  "workflow_function_name": ""
+                },
+                "is_active": false
+              },
+              "class": {
+                "object": {
+                  "id": {
+                    "formula": "",
+                    "initial_value": "",
+                    "is_primary_key": false,
+                    "is_use_regex": false,
+                    "is_use_validation": false,
+                    "name": "id",
+                    "type": "text",
+                    "validation_container_message": "",
+                    "validation_container_variable": "",
+                    "validation_script": ""
+                  },
+                  "name": {
+                    "formula": "",
+                    "initial_value": "",
+                    "is_primary_key": false,
+                    "is_use_regex": false,
+                    "is_use_validation": false,
+                    "name": "name",
+                    "type": "text",
+                    "validation_container_message": "",
+                    "validation_container_variable": "",
+                    "validation_script": ""
+                  }
+                }
+              },
+              "columns": {
+                "created_at": {
+                  "formula": "",
+                  "initial_value": "",
+                  "is_primary_key": false,
+                  "is_use_regex": false,
+                  "is_use_validation": false,
+                  "name": "created_at",
+                  "type": "timestamp",
+                  "validation_container_message": "",
+                  "validation_container_variable": "",
+                  "validation_script": ""
+                },
+                "created_at_offline": {
+                  "formula": "",
+                  "initial_value": "",
+                  "is_primary_key": false,
+                  "is_use_regex": false,
+                  "is_use_validation": false,
+                  "name": "created_at_offline",
+                  "type": "timestamp",
+                  "validation_container_message": "",
+                  "validation_container_variable": "",
+                  "validation_script": ""
+                },
+                "created_by": {
+                  "formula": "",
+                  "initial_value": "",
+                  "is_primary_key": false,
+                  "is_use_regex": false,
+                  "is_use_validation": false,
+                  "name": "created_by",
+                  "type": "number",
+                  "validation_container_message": "",
+                  "validation_container_variable": "",
+                  "validation_script": ""
+                },
+                "created_by_project_user": {
+                  "formula": "",
+                  "initial_value": "",
+                  "is_primary_key": false,
+                  "is_use_regex": false,
+                  "is_use_validation": false,
+                  "name": "created_by_project_user",
+                  "type": "text",
+                  "validation_container_message": "",
+                  "validation_container_variable": "",
+                  "validation_script": ""
+                },
+                "flow_status": {
+                  "formula": "",
+                  "initial_value": "",
+                  "is_primary_key": false,
+                  "is_use_regex": false,
+                  "is_use_validation": false,
+                  "name": "flow_status",
+                  "type": "text",
+                  "validation_container_message": "",
+                  "validation_container_variable": "",
+                  "validation_script": ""
+                },
+                "group_access_id": {
+                  "formula": "",
+                  "initial_value": "",
+                  "is_primary_key": true,
+                  "is_use_regex": false,
+                  "is_use_validation": false,
+                  "name": "group_access_id",
+                  "type": "text",
+                  "validation_container_message": "",
+                  "validation_container_variable": "",
+                  "validation_script": ""
+                },
+                "name": {
+                  "formula": "",
+                  "initial_value": "",
+                  "is_primary_key": false,
+                  "is_use_regex": false,
+                  "is_use_validation": false,
+                  "name": "name",
+                  "type": "text",
+                  "validation_container_message": "",
+                  "validation_container_variable": "",
+                  "validation_script": ""
+                },
+                "updated_at_offline": {
+                  "formula": "",
+                  "initial_value": "",
+                  "is_primary_key": false,
+                  "is_use_regex": false,
+                  "is_use_validation": false,
+                  "name": "updated_at_offline",
+                  "type": "timestamp",
+                  "validation_container_message": "",
+                  "validation_container_variable": "",
+                  "validation_script": ""
+                },
+                "updated_by_project_user": {
+                  "formula": "",
+                  "initial_value": "",
+                  "is_primary_key": false,
+                  "is_use_regex": false,
+                  "is_use_validation": false,
+                  "name": "updated_by_project_user",
+                  "type": "text",
+                  "validation_container_message": "",
+                  "validation_container_variable": "",
+                  "validation_script": ""
+                }
+              },
+              "company_id": 28086,
+              "created_at": 1783046680586,
+              "created_by": 197826,
+              "data_type": "group_access",
+              "id": "CmiW5TkSCr5",
+              "is_disable_audit_log": false,
+              "is_limit_maximum_data": false,
+              "is_offline_mode": false,
+              "is_public": false,
+              "is_share_device_info": false,
+              "is_use_workflow": false,
+              "name": "group_access",
+              "primary_key": "group_access_id",
+              "project_id": "wGki1P0fpJch",
+              "rate_limit": {
+                "active": false,
+                "limit_per_second": 0
+              },
+              "security": {
+                "create": "",
+                "delete": "",
+                "update": "",
+                "view": ""
+              },
+              "size": "",
+              "source": {
+                "collection": "",
+                "database": "",
+                "dsn": "",
+                "indexes": null,
+                "type": ""
+              },
+              "tablegroup_id": "GkAzOudUYcy4",
+              "type": "transaction",
+              "version": 0,
+              "workflow": {
+                "approver_by": "by_organigram",
+                "approver_selection": "",
+                "by_organigram_id": null,
+                "default_rule": {
+                  "rule_id": 0
+                },
+                "function_name": "",
+                "type": ""
+              }
+            },
+            "search_data_option": "name",
+            "set_value_selected": "group_access_id",
+            "show_data_option": "name",
+            "table_group": null
+          },
+          "direct_open_detail": {
+            "form_ui_id": "",
+            "is_use_direct_open_detail": false
+          },
+          "field_key": "",
+          "filter": {},
+          "filter_column": "",
+          "filter_operator": "and",
+          "init_value": null,
+          "is_auto_fill": false,
+          "is_auto_show": true,
+          "is_value_change": false,
+          "is_with_param": false,
+          "on_value_change": "",
+          "sort": [
+            {
+              "created_at": -1
+            }
+          ]
+        },
+        "field_data_key": "group_access",
+        "field_ui_key": "group_access",
+        "grid_size": 12,
+        "is_disable": false,
+        "is_hidden": false,
+        "is_mandatory": true,
+        "name": "Group Access",
+        "options": null,
+        "placeholder": "",
+        "type": "relation_record"
+      },
+      {
+        "config": {
+          "allow_qrcode_scanner": false,
+          "data_field_auto": [],
+          "data_source": {
+            "form": {
+              "approval_flow": {
+                "config": {
+                  "workflow_function_name": ""
+                },
+                "is_active": false
+              },
+              "class": {
+                "object": {
+                  "id": {
+                    "formula": "",
+                    "initial_value": "",
+                    "is_primary_key": false,
+                    "is_use_regex": false,
+                    "is_use_validation": false,
+                    "name": "id",
+                    "type": "text",
+                    "validation_container_message": "",
+                    "validation_container_variable": "",
+                    "validation_script": ""
+                  },
+                  "name": {
+                    "formula": "",
+                    "initial_value": "",
+                    "is_primary_key": false,
+                    "is_use_regex": false,
+                    "is_use_validation": false,
+                    "name": "name",
+                    "type": "text",
+                    "validation_container_message": "",
+                    "validation_container_variable": "",
+                    "validation_script": ""
+                  }
+                }
+              },
+              "columns": {
+                "app_owner": {
+                  "formula": "",
+                  "initial_value": "",
+                  "is_primary_key": false,
+                  "is_use_regex": false,
+                  "is_use_validation": false,
+                  "name": "app_owner",
+                  "type": "boolean",
+                  "validation_container_message": "",
+                  "validation_container_variable": "",
+                  "validation_script": ""
+                },
+                "created_at": {
+                  "formula": "",
+                  "initial_value": "",
+                  "is_primary_key": false,
+                  "is_use_regex": false,
+                  "is_use_validation": false,
+                  "name": "created_at",
+                  "type": "timestamp",
+                  "validation_container_message": "",
+                  "validation_container_variable": "",
+                  "validation_script": ""
+                },
+                "created_at_offline": {
+                  "formula": "",
+                  "initial_value": "",
+                  "is_primary_key": false,
+                  "is_use_regex": false,
+                  "is_use_validation": false,
+                  "name": "created_at_offline",
+                  "type": "timestamp",
+                  "validation_container_message": "",
+                  "validation_container_variable": "",
+                  "validation_script": ""
+                },
+                "created_by": {
+                  "formula": "",
+                  "initial_value": "",
+                  "is_primary_key": false,
+                  "is_use_regex": false,
+                  "is_use_validation": false,
+                  "name": "created_by",
+                  "type": "number",
+                  "validation_container_message": "",
+                  "validation_container_variable": "",
+                  "validation_script": ""
+                },
+                "created_by_project_user": {
+                  "formula": "",
+                  "initial_value": "",
+                  "is_primary_key": false,
+                  "is_use_regex": false,
+                  "is_use_validation": false,
+                  "name": "created_by_project_user",
+                  "type": "text",
+                  "validation_container_message": "",
+                  "validation_container_variable": "",
+                  "validation_script": ""
+                },
+                "created_by_user": {
+                  "formula": "",
+                  "initial_value": "",
+                  "is_primary_key": false,
+                  "is_use_regex": false,
+                  "is_use_validation": false,
+                  "name": "created_by_user",
+                  "type": "text",
+                  "validation_container_message": "",
+                  "validation_container_variable": "",
+                  "validation_script": ""
+                },
+                "email": {
+                  "formula": "",
+                  "initial_value": "",
+                  "is_primary_key": false,
+                  "is_use_regex": false,
+                  "is_use_validation": false,
+                  "name": "email",
+                  "type": "text",
+                  "validation_container_message": "",
+                  "validation_container_variable": "",
+                  "validation_script": ""
+                },
+                "flow_status": {
+                  "formula": "",
+                  "initial_value": "",
+                  "is_primary_key": false,
+                  "is_use_regex": false,
+                  "is_use_validation": false,
+                  "name": "flow_status",
+                  "type": "text",
+                  "validation_container_message": "",
+                  "validation_container_variable": "",
+                  "validation_script": ""
+                },
+                "name": {
+                  "formula": "",
+                  "initial_value": "",
+                  "is_primary_key": false,
+                  "is_use_regex": false,
+                  "is_use_validation": false,
+                  "name": "name",
+                  "type": "text",
+                  "validation_container_message": "",
+                  "validation_container_variable": "",
+                  "validation_script": ""
+                },
+                "status": {
+                  "formula": "",
+                  "initial_value": "",
+                  "is_primary_key": false,
+                  "is_use_regex": false,
+                  "is_use_validation": false,
+                  "name": "status",
+                  "type": "text",
+                  "validation_container_message": "",
+                  "validation_container_variable": "",
+                  "validation_script": ""
+                },
+                "updated_at_offline": {
+                  "formula": "",
+                  "initial_value": "",
+                  "is_primary_key": false,
+                  "is_use_regex": false,
+                  "is_use_validation": false,
+                  "name": "updated_at_offline",
+                  "type": "timestamp",
+                  "validation_container_message": "",
+                  "validation_container_variable": "",
+                  "validation_script": ""
+                },
+                "updated_by_project_user": {
+                  "formula": "",
+                  "initial_value": "",
+                  "is_primary_key": false,
+                  "is_use_regex": false,
+                  "is_use_validation": false,
+                  "name": "updated_by_project_user",
+                  "type": "text",
+                  "validation_container_message": "",
+                  "validation_container_variable": "",
+                  "validation_script": ""
+                },
+                "updated_by_user": {
+                  "formula": "",
+                  "initial_value": "",
+                  "is_primary_key": false,
+                  "is_use_regex": false,
+                  "is_use_validation": false,
+                  "name": "updated_by_user",
+                  "type": "text",
+                  "validation_container_message": "",
+                  "validation_container_variable": "",
+                  "validation_script": ""
+                },
+                "user_id": {
+                  "formula": "",
+                  "initial_value": "",
+                  "is_primary_key": true,
+                  "is_use_regex": false,
+                  "is_use_validation": false,
+                  "name": "user_id",
+                  "type": "text",
+                  "validation_container_message": "",
+                  "validation_container_variable": "",
+                  "validation_script": ""
+                }
+              },
+              "company_id": 28086,
+              "created_at": 1783046680115,
+              "created_by": 197826,
+              "data_type": "user",
+              "id": "zYjrbSVcbw8R",
+              "is_disable_audit_log": false,
+              "is_limit_maximum_data": false,
+              "is_offline_mode": false,
+              "is_public": false,
+              "is_share_device_info": false,
+              "is_use_workflow": false,
+              "name": "user",
+              "primary_key": "user_id",
+              "project_id": "wGki1P0fpJch",
+              "rate_limit": {
+                "active": false,
+                "limit_per_second": 0
+              },
+              "security": {
+                "create": "",
+                "delete": "",
+                "update": "",
+                "view": ""
+              },
+              "size": "",
+              "source": {
+                "collection": "",
+                "database": "",
+                "dsn": "",
+                "indexes": null,
+                "type": ""
+              },
+              "tablegroup_id": "GkAzOudUYcy4",
+              "type": "transaction",
+              "version": 0,
+              "workflow": {
+                "approver_by": "by_organigram",
+                "approver_selection": "",
+                "by_organigram_id": null,
+                "default_rule": {
+                  "rule_id": 0
+                },
+                "function_name": "",
+                "type": ""
+              }
+            },
+            "search_data_option": "email",
+            "set_value_selected": "user_id",
+            "show_data_option": "email",
+            "table_group": null
+          },
+          "direct_open_detail": {
+            "form_ui_id": "",
+            "is_use_direct_open_detail": false
+          },
+          "field_key": "",
+          "filter": {},
+          "filter_column": "",
+          "filter_operator": "and",
+          "init_value": null,
+          "is_auto_fill": false,
+          "is_auto_show": true,
+          "is_value_change": false,
+          "is_with_param": false,
+          "on_value_change": "",
+          "sort": [
+            {
+              "created_at": -1
+            }
+          ]
+        },
+        "field_data_key": "user",
+        "field_ui_key": "user",
+        "grid_size": 12,
+        "is_disable": false,
+        "is_hidden": false,
+        "is_mandatory": true,
+        "name": "User",
+        "options": null,
+        "placeholder": "",
+        "type": "relation_record"
+      }
+    ],
+    "description": "",
+    "is_pagescreen": false,
+    "title": "Detail group_access_member"
+  },
+  "export_view": null,
+  "external_source_id": "",
+  "external_url": "",
+  "form_data_id": "rvl3K0pCnl2c",
+  "form_data_name": "group_access_member",
+  "id": "GkAzOu4UPcoD",
+  "import_view": null,
+  "is_stored_to_eventsam": false,
+  "is_use_digital_signature": false,
+  "kanban_card_view": null,
+  "kanban_table_view": null,
+  "list_approver_view": null,
+  "list_requester_view": null,
+  "list_view": null,
+  "map_view": null,
+  "name": "Group Access Member Management",
+  "native_buttons": null,
+  "otp_digital_signature": false,
+  "project_id": "wGki1P0fpJch",
+  "report_view": null,
+  "source_type": "",
+  "table_approver_view": null,
+  "table_requester_view": null,
+  "table_view": {
+    "action_buttons": null,
+    "auto_show_search_options_list": false,
+    "bulking_action_by_function": null,
+    "column_bulking_update": null,
+    "columns": [
+      {
+        "config": {
+          "action_buttons": null,
+          "allow_minus_value": false,
+          "color": "",
+          "display_type": "",
+          "editable_column": null,
+          "is_editable_column": false
+        },
+        "content_alignment": "",
+        "key": "group_access_member_id",
+        "name": "Group Access Member Id",
+        "sort": false,
+        "type": "text"
+      },
+      {
+        "config": {
+          "action_buttons": null,
+          "allow_minus_value": false,
+          "color": "",
+          "display_type": "",
+          "editable_column": null,
+          "is_editable_column": false
+        },
+        "content_alignment": "",
+        "key": "group_access",
+        "name": "Group Access",
+        "sort": false,
+        "type": "text"
+      },
+      {
+        "config": {
+          "action_buttons": null,
+          "allow_minus_value": false,
+          "color": "",
+          "display_type": "",
+          "editable_column": null,
+          "is_editable_column": false
+        },
+        "content_alignment": "",
+        "key": "user",
+        "name": "User",
+        "sort": false,
+        "type": "text"
+      }
+    ],
+    "config_bulking": null,
+    "config_native_button_table": {
+      "add": {
+        "is_hidden": false,
+        "label": "Add"
+      },
+      "export": {
+        "is_hidden": false,
+        "label": "Export"
+      },
+      "filter": {
+        "is_hidden": false,
+        "label": "Filter"
+      },
+      "group": {
+        "is_hidden": false,
+        "label": "Group"
+      },
+      "import": {
+        "is_hidden": false,
+        "label": "Import"
+      }
+    },
+    "config_preview_data": {
+      "is_show_summary_data": false,
+      "is_show_summary_list": false,
+      "summary_data": "",
+      "summary_label": "",
+      "summary_list": [],
+      "summary_list_type": ""
+    },
+    "config_tag_filter": null,
+    "description": "",
+    "disable_redirect_detail_page": false,
+    "filter": null,
+    "filter_function": null,
+    "filter_function_skip_null": null,
+    "filter_operator": "",
+    "freeze_header_table": false,
+    "is_use_bulking_delete": false,
+    "is_use_bulking_update": false,
+    "row_expansion": false,
+    "rows_page_default": 10,
+    "rows_page_option": [
+      10,
+      20,
+      50,
+      100
+    ],
+    "search_options_list": null,
+    "server_side_pagination": false,
+    "sort": null,
+    "summary_block": null,
+    "title": "group_access_member Table"
+  },
+  "tablegroup_id": "GkAzOudUYcy4",
+  "tablegroup_name": "testing_mcp",
+  "third_party_connection_name": "",
+  "type": "form",
+  "user_company_id": 197826,
+  "version": 0
+}

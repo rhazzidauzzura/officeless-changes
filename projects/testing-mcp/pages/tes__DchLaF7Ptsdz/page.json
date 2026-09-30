@@ -1,0 +1,20 @@
+{
+  "application_id": "daSPVl94aw3C",
+  "components": [
+    {
+      "name": "Tes",
+      "type": "custom_layout"
+    }
+  ],
+  "created_at": 1789920907786,
+  "form_data_id": null,
+  "icon_key": "blank",
+  "id": "DchLaF7Ptsdz",
+  "name": "Tes",
+  "order": 1,
+  "page_id": "DchLaF7Ptsdz",
+  "parent_id": null,
+  "show_option": 1,
+  "type": "visible",
+  "type_platform": 1
+}

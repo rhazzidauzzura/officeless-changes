@@ -1,0 +1,228 @@
+{
+  "approval_flow": {
+    "config": {
+      "workflow_function_name": ""
+    },
+    "is_active": false
+  },
+  "class": {
+    "object": {
+      "id": {
+        "formula": "",
+        "initial_value": "",
+        "is_primary_key": false,
+        "is_use_regex": false,
+        "is_use_validation": false,
+        "name": "id",
+        "type": "text",
+        "validation_container_message": "",
+        "validation_container_variable": "",
+        "validation_script": ""
+      },
+      "name": {
+        "formula": "",
+        "initial_value": "",
+        "is_primary_key": false,
+        "is_use_regex": false,
+        "is_use_validation": false,
+        "name": "name",
+        "type": "text",
+        "validation_container_message": "",
+        "validation_container_variable": "",
+        "validation_script": ""
+      }
+    }
+  },
+  "columns": {
+    "code": {
+      "formula": "",
+      "initial_value": "",
+      "is_primary_key": false,
+      "is_use_regex": false,
+      "is_use_validation": false,
+      "name": "code",
+      "type": "text",
+      "validation_container_message": "",
+      "validation_container_variable": "",
+      "validation_script": ""
+    },
+    "created_at": {
+      "formula": "",
+      "initial_value": "",
+      "is_primary_key": false,
+      "is_use_regex": false,
+      "is_use_validation": false,
+      "name": "created_at",
+      "type": "timestamp",
+      "validation_container_message": "",
+      "validation_container_variable": "",
+      "validation_script": ""
+    },
+    "created_at_offline": {
+      "formula": "",
+      "initial_value": "",
+      "is_primary_key": false,
+      "is_use_regex": false,
+      "is_use_validation": false,
+      "name": "created_at_offline",
+      "type": "timestamp",
+      "validation_container_message": "",
+      "validation_container_variable": "",
+      "validation_script": ""
+    },
+    "created_by": {
+      "formula": "",
+      "initial_value": "",
+      "is_primary_key": false,
+      "is_use_regex": false,
+      "is_use_validation": false,
+      "name": "created_by",
+      "type": "number",
+      "validation_container_message": "",
+      "validation_container_variable": "",
+      "validation_script": ""
+    },
+    "created_by_project_user": {
+      "formula": "",
+      "initial_value": "",
+      "is_primary_key": false,
+      "is_use_regex": false,
+      "is_use_validation": false,
+      "name": "created_by_project_user",
+      "type": "text",
+      "validation_container_message": "",
+      "validation_container_variable": "",
+      "validation_script": ""
+    },
+    "created_by_user": {
+      "formula": "",
+      "initial_value": "",
+      "is_primary_key": false,
+      "is_use_regex": false,
+      "is_use_validation": false,
+      "name": "created_by_user",
+      "type": "text",
+      "validation_container_message": "",
+      "validation_container_variable": "",
+      "validation_script": ""
+    },
+    "flow_status": {
+      "formula": "",
+      "initial_value": "",
+      "is_primary_key": false,
+      "is_use_regex": false,
+      "is_use_validation": false,
+      "name": "flow_status",
+      "type": "text",
+      "validation_container_message": "",
+      "validation_container_variable": "",
+      "validation_script": ""
+    },
+    "name": {
+      "formula": "",
+      "initial_value": "",
+      "is_primary_key": false,
+      "is_use_regex": false,
+      "is_use_validation": false,
+      "name": "name",
+      "type": "text",
+      "validation_container_message": "",
+      "validation_container_variable": "",
+      "validation_script": ""
+    },
+    "position_id": {
+      "formula": "",
+      "initial_value": "",
+      "is_primary_key": true,
+      "is_use_regex": false,
+      "is_use_validation": false,
+      "name": "position_id",
+      "type": "text",
+      "validation_container_message": "",
+      "validation_container_variable": "",
+      "validation_script": ""
+    },
+    "updated_at_offline": {
+      "formula": "",
+      "initial_value": "",
+      "is_primary_key": false,
+      "is_use_regex": false,
+      "is_use_validation": false,
+      "name": "updated_at_offline",
+      "type": "timestamp",
+      "validation_container_message": "",
+      "validation_container_variable": "",
+      "validation_script": ""
+    },
+    "updated_by_project_user": {
+      "formula": "",
+      "initial_value": "",
+      "is_primary_key": false,
+      "is_use_regex": false,
+      "is_use_validation": false,
+      "name": "updated_by_project_user",
+      "type": "text",
+      "validation_container_message": "",
+      "validation_container_variable": "",
+      "validation_script": ""
+    },
+    "updated_by_user": {
+      "formula": "",
+      "initial_value": "",
+      "is_primary_key": false,
+      "is_use_regex": false,
+      "is_use_validation": false,
+      "name": "updated_by_user",
+      "type": "text",
+      "validation_container_message": "",
+      "validation_container_variable": "",
+      "validation_script": ""
+    }
+  },
+  "company_id": 28086,
+  "created_at": 1783046680767,
+  "created_by": 197826,
+  "data_type": "position",
+  "id": "W7JRh6Y0Lri4",
+  "is_disable_audit_log": false,
+  "is_limit_maximum_data": false,
+  "is_offline_mode": false,
+  "is_public": false,
+  "is_share_device_info": false,
+  "is_use_workflow": false,
+  "name": "position",
+  "native_columns": [
+    "id",
+    "flow_status",
+    "created_at",
+    "updated_at",
+    "created_by",
+    "updated_by",
+    "created_by_project_user",
+    "updated_by_project_user",
+    "position_id",
+    "code",
+    "name",
+    "created_by_user",
+    "updated_by_user"
+  ],
+  "primary_key": "position_id",
+  "rate_limit": {
+    "active": false,
+    "limit_per_second": 0
+  },
+  "size": "",
+  "tablegroup_id": "GkAzOudUYcy4",
+  "type": "transaction",
+  "version": 0,
+  "workflow": {
+    "approver_by": "by_organigram",
+    "approver_selection": "",
+    "by_organigram_id": null,
+    "default_rule": {
+      "rule_id": 0
+    },
+    "function_name": "",
+    "type": ""
+  }
+}

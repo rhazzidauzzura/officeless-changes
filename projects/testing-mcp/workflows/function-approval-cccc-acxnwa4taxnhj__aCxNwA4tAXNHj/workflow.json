@@ -1,0 +1,204 @@
+{
+  "actions": [
+    {
+      "approval_flow": [
+        {
+          "flow_name": "'Stage 1'",
+          "flow_type": "'order'",
+          "minimum_action": "''",
+          "position_codes": "['generated_AeX3aiKsCH1sJ']"
+        }
+      ],
+      "block_name": "",
+      "compress_file_base64": null,
+      "compress_file_company_drive": null,
+      "compress_file_multiple_url": null,
+      "conditional": {
+        "action_false": null,
+        "action_true": null,
+        "query": ""
+      },
+      "container_variable": "res_approval_flow",
+      "custom_response": null,
+      "data": null,
+      "data_connection": {
+        "connection": "",
+        "do": "",
+        "query": ""
+      },
+      "dedicated_job": {
+        "counter_variable": "",
+        "input": "",
+        "name": ""
+      },
+      "external_api": {
+        "body": "",
+        "header": null,
+        "method": "",
+        "url": ""
+      },
+      "filter": null,
+      "filter_v2": null,
+      "form_data": null,
+      "form_data_id": "",
+      "function": {
+        "input": "",
+        "name": ""
+      },
+      "id": "UK8VTS9LA5W2R",
+      "is_async": false,
+      "is_auto_generated_file_url": false,
+      "is_disable": false,
+      "is_disable_log": false,
+      "javascript": "",
+      "job": {
+        "input": "",
+        "name": ""
+      },
+      "limit": "",
+      "new_filter": null,
+      "page": "",
+      "plugin_api": null,
+      "qontak_send_whatsapp": null,
+      "redirect_page": {
+        "application_id": "",
+        "application_name": "",
+        "data_display": "",
+        "form_ui_id": "",
+        "pages_id": "",
+        "pages_name": "",
+        "param_embed_url": "",
+        "project_id": "",
+        "record_id": "",
+        "target": "",
+        "type": "",
+        "url": ""
+      },
+      "return_message": {
+        "message": "",
+        "status": ""
+      },
+      "send_notification": {
+        "apps": "",
+        "content": "",
+        "heading": "",
+        "is_custom_redirect": false,
+        "script_redirect": "",
+        "type": "",
+        "user_company_ids": "",
+        "variable_redirect": ""
+      },
+      "sort": null,
+      "sum_formdata": {
+        "column": "",
+        "filter": null
+      },
+      "tablegroup_id": "",
+      "talenta_get_attendances": null,
+      "timeout_millisecond": 0,
+      "type": "approval_flow",
+      "while": {
+        "action_done": null,
+        "action_while": null,
+        "variable_source": ""
+      }
+    }
+  ],
+  "company_id": 28086,
+  "created_at": 0,
+  "created_by": 0,
+  "description": "",
+  "disable_run_history": false,
+  "id": "aCxNwA4tAXNHj",
+  "is_active": true,
+  "is_deleted": false,
+  "is_stored_to_eventsam": true,
+  "is_sync": false,
+  "metadata": {
+    "has_plugin_api": false
+  },
+  "name": "function_approval_cccc_aCxNwA4tAXNHj",
+  "project_id": "wGki1P0fpJch",
+  "trigger": {
+    "api": {
+      "max_length_char_payload": 0,
+      "method": "",
+      "rate_limit": 0,
+      "url": ""
+    },
+    "api_v2": {
+      "max_length_char_payload": 0,
+      "method": "",
+      "rate_limit": 0,
+      "url": ""
+    },
+    "block_name": "",
+    "container_response": "res_approval_flow",
+    "container_variable": "req_approval_flow",
+    "dedicated_job": {
+      "counter_total": 0,
+      "name": ""
+    },
+    "event": {
+      "name": ""
+    },
+    "external_source_function": {
+      "name": ""
+    },
+    "form": {
+      "event": "",
+      "form_data_id": "",
+      "form_data_name": "",
+      "tablegroup_id": ""
+    },
+    "form_interaction_function": {
+      "name": ""
+    },
+    "function": {
+      "name": "function_approval_cccc_aCxNwA4tAXNHj"
+    },
+    "id": "",
+    "job": {
+      "name": ""
+    },
+    "scheduler": {
+      "days": null,
+      "frequency": "",
+      "start_date": "0001-01-01T00:00:00Z",
+      "time": null,
+      "timezone": ""
+    },
+    "sdk_function": {
+      "name": "",
+      "required_authorization": false
+    },
+    "type": "function",
+    "webhook": {
+      "max_length_char_payload": 0,
+      "method": "",
+      "rate_limit": 0,
+      "url": ""
+    },
+    "webhook_mekari_product": {
+      "event": "",
+      "max_length_char_payload": 0,
+      "method": "",
+      "product": "",
+      "rate_limit": 0,
+      "url": "",
+      "webhook_admin": {
+        "event_id": "",
+        "id": "",
+        "uid": ""
+      }
+    },
+    "webhook_v2": {
+      "max_length_char_payload": 0,
+      "method": "",
+      "rate_limit": 0,
+      "url": ""
+    }
+  },
+  "user_company_id": 0,
+  "version": 1
+}

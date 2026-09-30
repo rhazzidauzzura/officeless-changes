@@ -1,0 +1,5 @@
+# Ganti dengan username/team GitHub yang benar.
+# Setiap PR yang menyentuh path ini wajib di-review oleh owner-nya.
+*                               @mekari/officeless-ops
+/projects/testing-mcp/          @mekari/officeless-ops
+/tools/                         @mekari/officeless-ops

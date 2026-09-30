@@ -1,0 +1,483 @@
+{
+  "attach_not_signed_document": "",
+  "attach_signed_document": "",
+  "calendar_view": null,
+  "chart_view": null,
+  "company_id": 28086,
+  "create_requester_view": null,
+  "create_view": {
+    "columns": [
+      {
+        "config": {
+          "accepted_file_type": [
+            "jpg",
+            "png",
+            "jpeg",
+            "csv",
+            "xls",
+            "xlsx"
+          ],
+          "camera_type": null,
+          "field_1": "",
+          "field_2": "",
+          "field_3": "",
+          "is_can_access_gallery": false,
+          "is_use_camera": false,
+          "is_use_watermark": false,
+          "list_options": [
+            "TES"
+          ],
+          "private_file": false,
+          "view_style": "list"
+        },
+        "field_data_key": "tes",
+        "field_ui_key": "tes",
+        "grid_size": 12,
+        "is_disable": false,
+        "is_hidden": false,
+        "is_mandatory": true,
+        "name": "tes",
+        "options": null,
+        "placeholder": "",
+        "type": "attachment"
+      }
+    ],
+    "description": "",
+    "title": "TES"
+  },
+  "created_at": 1787555287809,
+  "created_by": 197826,
+  "data_source": null,
+  "detail_approver_view": null,
+  "detail_requester_view": null,
+  "detail_view": {
+    "action_buttons": null,
+    "columns": [
+      {
+        "config": {
+          "allow_qrcode_scanner": false,
+          "default_value": null,
+          "init_value": null,
+          "is_value_change": false,
+          "maximum_length": null,
+          "on_value_change": ""
+        },
+        "field_data_key": "ids",
+        "field_ui_key": "ids",
+        "grid_size": 12,
+        "is_disable": false,
+        "is_hidden": false,
+        "is_mandatory": true,
+        "name": "ids",
+        "options": null,
+        "placeholder": "",
+        "type": "text"
+      },
+      {
+        "config": {
+          "accepted_file_type": [
+            "jpg",
+            "png",
+            "jpeg",
+            "csv",
+            "xls",
+            "xlsx"
+          ],
+          "camera_type": null,
+          "field_1": "",
+          "field_2": "",
+          "field_3": "",
+          "is_can_access_gallery": false,
+          "is_use_camera": false,
+          "is_use_watermark": false,
+          "list_options": [
+            "TES"
+          ],
+          "private_file": false,
+          "view_style": "list"
+        },
+        "field_data_key": "tes",
+        "field_ui_key": "tes",
+        "grid_size": 12,
+        "is_disable": false,
+        "is_hidden": false,
+        "is_mandatory": true,
+        "name": "tes",
+        "options": null,
+        "placeholder": "",
+        "type": "attachment"
+      }
+    ],
+    "description": "",
+    "is_pagescreen": false,
+    "title": "TES"
+  },
+  "export_view": null,
+  "external_source_id": "",
+  "external_url": "",
+  "form_data_id": "9LQ5ndLFu1qrO",
+  "form_data_name": "tes",
+  "id": "RHMZtxHewiNHg",
+  "import_view": null,
+  "is_stored_to_eventsam": false,
+  "is_use_digital_signature": false,
+  "kanban_card_view": null,
+  "kanban_table_view": null,
+  "list_approver_view": null,
+  "list_requester_view": null,
+  "list_view": null,
+  "map_view": null,
+  "name": "Tes_1787555287",
+  "native_buttons": {
+    "approve": {
+      "config_dialog_message": {
+        "is_note_mandatory": false
+      },
+      "container_params": "",
+      "container_record": "",
+      "container_script_before_is_not_valid": "",
+      "container_script_before_is_not_valid_message": "",
+      "custom_confirmation_message": "",
+      "dynamic_confirmation_message": "",
+      "dynamic_confirmation_message_params": null,
+      "is_hidden": false,
+      "is_use_confirmation_message": false,
+      "label": "Approve",
+      "script": "",
+      "script_before": "",
+      "type": "",
+      "variable_message": "",
+      "variable_redirect": ""
+    },
+    "cancel": {
+      "config_dialog_message": {
+        "is_note_mandatory": false
+      },
+      "container_params": "",
+      "container_record": "",
+      "container_script_before_is_not_valid": "",
+      "container_script_before_is_not_valid_message": "",
+      "custom_confirmation_message": "",
+      "dynamic_confirmation_message": "",
+      "dynamic_confirmation_message_params": null,
+      "is_hidden": false,
+      "is_use_confirmation_message": false,
+      "label": "Cancel",
+      "script": "",
+      "script_before": "",
+      "type": "",
+      "variable_message": "",
+      "variable_redirect": ""
+    },
+    "close": {
+      "config_dialog_message": {
+        "is_note_mandatory": false
+      },
+      "container_params": "",
+      "container_record": "",
+      "container_script_before_is_not_valid": "",
+      "container_script_before_is_not_valid_message": "",
+      "custom_confirmation_message": "",
+      "dynamic_confirmation_message": "",
+      "dynamic_confirmation_message_params": null,
+      "is_hidden": false,
+      "is_use_confirmation_message": false,
+      "label": "Close",
+      "script": "",
+      "script_before": "",
+      "type": "",
+      "variable_message": "",
+      "variable_redirect": ""
+    },
+    "create": {
+      "config_dialog_message": {
+        "is_note_mandatory": false
+      },
+      "container_params": "",
+      "container_record": "",
+      "container_script_before_is_not_valid": "",
+      "container_script_before_is_not_valid_message": "",
+      "custom_confirmation_message": "",
+      "dynamic_confirmation_message": "",
+      "dynamic_confirmation_message_params": null,
+      "is_hidden": false,
+      "is_use_confirmation_message": false,
+      "label": "Create",
+      "script": "",
+      "script_before": "",
+      "type": "",
+      "variable_message": "",
+      "variable_redirect": ""
+    },
+    "delete": {
+      "config_dialog_message": {
+        "is_note_mandatory": false
+      },
+      "container_params": "",
+      "container_record": "",
+      "container_script_before_is_not_valid": "",
+      "container_script_before_is_not_valid_message": "",
+      "custom_confirmation_message": "",
+      "dynamic_confirmation_message": "",
+      "dynamic_confirmation_message_params": null,
+      "is_hidden": false,
+      "is_use_confirmation_message": false,
+      "label": "Delete",
+      "script": "",
+      "script_before": "",
+      "type": "",
+      "variable_message": "",
+      "variable_redirect": ""
+    },
+    "draft": {
+      "config_dialog_message": {
+        "is_note_mandatory": false
+      },
+      "container_params": "",
+      "container_record": "",
+      "container_script_before_is_not_valid": "",
+      "container_script_before_is_not_valid_message": "",
+      "custom_confirmation_message": "",
+      "dynamic_confirmation_message": "",
+      "dynamic_confirmation_message_params": null,
+      "is_hidden": false,
+      "is_use_confirmation_message": false,
+      "label": "Draft",
+      "script": "",
+      "script_before": "",
+      "type": "",
+      "variable_message": "",
+      "variable_redirect": ""
+    },
+    "need_revision": {
+      "config_dialog_message": {
+        "is_note_mandatory": false
+      },
+      "container_params": "",
+      "container_record": "",
+      "container_script_before_is_not_valid": "",
+      "container_script_before_is_not_valid_message": "",
+      "custom_confirmation_message": "",
+      "dynamic_confirmation_message": "",
+      "dynamic_confirmation_message_params": null,
+      "is_hidden": true,
+      "is_use_confirmation_message": false,
+      "label": "Request Revision",
+      "script": "",
+      "script_before": "",
+      "type": "",
+      "variable_message": "",
+      "variable_redirect": ""
+    },
+    "reject": {
+      "config_dialog_message": {
+        "is_note_mandatory": false
+      },
+      "container_params": "",
+      "container_record": "",
+      "container_script_before_is_not_valid": "",
+      "container_script_before_is_not_valid_message": "",
+      "custom_confirmation_message": "",
+      "dynamic_confirmation_message": "",
+      "dynamic_confirmation_message_params": null,
+      "is_hidden": false,
+      "is_use_confirmation_message": false,
+      "label": "Reject",
+      "script": "",
+      "script_before": "",
+      "type": "",
+      "variable_message": "",
+      "variable_redirect": ""
+    },
+    "submit": {
+      "config_dialog_message": {
+        "is_note_mandatory": false
+      },
+      "container_params": "",
+      "container_record": "",
+      "container_script_before_is_not_valid": "",
+      "container_script_before_is_not_valid_message": "",
+      "custom_confirmation_message": "",
+      "dynamic_confirmation_message": "",
+      "dynamic_confirmation_message_params": null,
+      "is_hidden": false,
+      "is_use_confirmation_message": false,
+      "label": "Submit",
+      "script": "",
+      "script_before": "",
+      "type": "",
+      "variable_message": "",
+      "variable_redirect": ""
+    },
+    "update": {
+      "config_dialog_message": {
+        "is_note_mandatory": false
+      },
+      "container_params": "",
+      "container_record": "",
+      "container_script_before_is_not_valid": "",
+      "container_script_before_is_not_valid_message": "",
+      "custom_confirmation_message": "",
+      "dynamic_confirmation_message": "",
+      "dynamic_confirmation_message_params": null,
+      "is_hidden": false,
+      "is_use_confirmation_message": false,
+      "label": "Update",
+      "script": "",
+      "script_before": "",
+      "type": "",
+      "variable_message": "",
+      "variable_redirect": ""
+    }
+  },
+  "otp_digital_signature": false,
+  "project_id": "wGki1P0fpJch",
+  "report_view": null,
+  "source_type": "",
+  "table_approver_view": null,
+  "table_requester_view": null,
+  "table_view": {
+    "action_buttons": null,
+    "auto_show_search_options_list": false,
+    "bulking_action_by_function": null,
+    "column_bulking_update": null,
+    "columns": [
+      {
+        "config": {
+          "action_buttons": null,
+          "allow_minus_value": false,
+          "color": "",
+          "display_type": "",
+          "editable_column": {
+            "config": {
+              "allow_qrcode_scanner": false,
+              "default_value": null,
+              "init_value": null,
+              "is_value_change": false,
+              "maximum_length": null,
+              "on_value_change": ""
+            },
+            "field_data_key": "ids",
+            "field_ui_key": "ids",
+            "grid_size": 12,
+            "is_mandatory": true,
+            "name": "ids",
+            "placeholder": "",
+            "type": "text"
+          },
+          "is_editable_column": false
+        },
+        "content_alignment": "",
+        "key": "ids",
+        "name": "ids",
+        "sort": false,
+        "type": "text"
+      },
+      {
+        "config": {
+          "action_buttons": null,
+          "allow_minus_value": false,
+          "color": "",
+          "display_type": "",
+          "editable_column": {
+            "config": {
+              "accepted_file_type": [
+                "jpg",
+                "png",
+                "jpeg",
+                "csv",
+                "xls",
+                "xlsx"
+              ],
+              "camera_type": null,
+              "field_1": "",
+              "field_2": "",
+              "field_3": "",
+              "is_can_access_gallery": false,
+              "is_use_camera": false,
+              "is_use_watermark": false,
+              "list_options": [
+                "TES"
+              ],
+              "private_file": false,
+              "view_style": "list"
+            },
+            "field_data_key": "tes",
+            "field_ui_key": "tes",
+            "grid_size": 12,
+            "is_mandatory": true,
+            "name": "tes",
+            "placeholder": "",
+            "type": "attachment"
+          },
+          "is_editable_column": false
+        },
+        "content_alignment": "",
+        "key": "tes",
+        "name": "tes",
+        "sort": false,
+        "type": "attachment"
+      }
+    ],
+    "config_bulking": null,
+    "config_native_button_table": {
+      "add": {
+        "is_hidden": false,
+        "label": "Add"
+      },
+      "export": {
+        "is_hidden": false,
+        "label": "Export"
+      },
+      "filter": {
+        "is_hidden": false,
+        "label": "Filter"
+      },
+      "group": {
+        "is_hidden": false,
+        "label": "Group"
+      },
+      "import": {
+        "is_hidden": false,
+        "label": "Import"
+      }
+    },
+    "config_preview_data": {
+      "is_show_summary_data": false,
+      "is_show_summary_list": false,
+      "summary_data": "",
+      "summary_label": "",
+      "summary_list": [],
+      "summary_list_type": ""
+    },
+    "config_tag_filter": null,
+    "description": "",
+    "disable_redirect_detail_page": false,
+    "filter": null,
+    "filter_function": null,
+    "filter_function_skip_null": null,
+    "filter_operator": "",
+    "freeze_header_table": false,
+    "is_use_bulking_delete": false,
+    "is_use_bulking_update": false,
+    "row_expansion": false,
+    "rows_page_default": 10,
+    "rows_page_option": [
+      10,
+      20,
+      50,
+      100
+    ],
+    "search_options_list": null,
+    "server_side_pagination": true,
+    "sort": null,
+    "summary_block": null,
+    "title": "TES"
+  },
+  "tablegroup_id": "GkAzOudUYcy4",
+  "tablegroup_name": "testing_mcp",
+  "third_party_connection_name": "",
+  "type": "form",
+  "user_company_id": 197826,
+  "version": 0
+}

@@ -1,0 +1,292 @@
+{
+  "approval_flow": {
+    "config": {
+      "workflow_function_name": ""
+    },
+    "is_active": false
+  },
+  "class": {
+    "object": {
+      "id": {
+        "formula": "",
+        "initial_value": "",
+        "is_primary_key": false,
+        "is_use_regex": false,
+        "is_use_validation": false,
+        "name": "id",
+        "type": "text",
+        "validation_container_message": "",
+        "validation_container_variable": "",
+        "validation_script": ""
+      },
+      "name": {
+        "formula": "",
+        "initial_value": "",
+        "is_primary_key": false,
+        "is_use_regex": false,
+        "is_use_validation": false,
+        "name": "name",
+        "type": "text",
+        "validation_container_message": "",
+        "validation_container_variable": "",
+        "validation_script": ""
+      }
+    }
+  },
+  "columns": {
+    "application": {
+      "formula": "",
+      "initial_value": "",
+      "is_primary_key": false,
+      "is_use_regex": false,
+      "is_use_validation": false,
+      "name": "application",
+      "type": "object",
+      "validation_container_message": "",
+      "validation_container_variable": "",
+      "validation_script": ""
+    },
+    "components": {
+      "formula": "",
+      "initial_value": "",
+      "is_primary_key": false,
+      "is_use_regex": false,
+      "is_use_validation": false,
+      "name": "components",
+      "type": "[]object",
+      "validation_container_message": "",
+      "validation_container_variable": "",
+      "validation_script": ""
+    },
+    "created_at": {
+      "formula": "",
+      "initial_value": "",
+      "is_primary_key": false,
+      "is_use_regex": false,
+      "is_use_validation": false,
+      "name": "created_at",
+      "type": "timestamp",
+      "validation_container_message": "",
+      "validation_container_variable": "",
+      "validation_script": ""
+    },
+    "created_at_offline": {
+      "formula": "",
+      "initial_value": "",
+      "is_primary_key": false,
+      "is_use_regex": false,
+      "is_use_validation": false,
+      "name": "created_at_offline",
+      "type": "timestamp",
+      "validation_container_message": "",
+      "validation_container_variable": "",
+      "validation_script": ""
+    },
+    "created_by": {
+      "formula": "",
+      "initial_value": "",
+      "is_primary_key": false,
+      "is_use_regex": false,
+      "is_use_validation": false,
+      "name": "created_by",
+      "type": "number",
+      "validation_container_message": "",
+      "validation_container_variable": "",
+      "validation_script": ""
+    },
+    "created_by_project_user": {
+      "formula": "",
+      "initial_value": "",
+      "is_primary_key": false,
+      "is_use_regex": false,
+      "is_use_validation": false,
+      "name": "created_by_project_user",
+      "type": "text",
+      "validation_container_message": "",
+      "validation_container_variable": "",
+      "validation_script": ""
+    },
+    "flow_status": {
+      "formula": "",
+      "initial_value": "",
+      "is_primary_key": false,
+      "is_use_regex": false,
+      "is_use_validation": false,
+      "name": "flow_status",
+      "type": "text",
+      "validation_container_message": "",
+      "validation_container_variable": "",
+      "validation_script": ""
+    },
+    "icon_key": {
+      "formula": "",
+      "initial_value": "",
+      "is_primary_key": false,
+      "is_use_regex": false,
+      "is_use_validation": false,
+      "name": "icon_key",
+      "type": "text",
+      "validation_container_message": "",
+      "validation_container_variable": "",
+      "validation_script": ""
+    },
+    "name": {
+      "formula": "",
+      "initial_value": "",
+      "is_primary_key": false,
+      "is_use_regex": false,
+      "is_use_validation": false,
+      "name": "name",
+      "type": "text",
+      "validation_container_message": "",
+      "validation_container_variable": "",
+      "validation_script": ""
+    },
+    "order": {
+      "formula": "",
+      "initial_value": "",
+      "is_primary_key": false,
+      "is_use_regex": false,
+      "is_use_validation": false,
+      "name": "order",
+      "type": "number",
+      "validation_container_message": "",
+      "validation_container_variable": "",
+      "validation_script": ""
+    },
+    "page_id": {
+      "formula": "",
+      "initial_value": "",
+      "is_primary_key": true,
+      "is_use_regex": false,
+      "is_use_validation": false,
+      "name": "page_id",
+      "type": "text",
+      "validation_container_message": "",
+      "validation_container_variable": "",
+      "validation_script": ""
+    },
+    "parent_id": {
+      "formula": "",
+      "initial_value": "",
+      "is_primary_key": false,
+      "is_use_regex": false,
+      "is_use_validation": false,
+      "name": "parent_id",
+      "type": "text",
+      "validation_container_message": "",
+      "validation_container_variable": "",
+      "validation_script": ""
+    },
+    "show_option": {
+      "formula": "",
+      "initial_value": "",
+      "is_primary_key": false,
+      "is_use_regex": false,
+      "is_use_validation": false,
+      "name": "show_option",
+      "type": "number",
+      "validation_container_message": "",
+      "validation_container_variable": "",
+      "validation_script": ""
+    },
+    "type": {
+      "formula": "",
+      "initial_value": "",
+      "is_primary_key": false,
+      "is_use_regex": false,
+      "is_use_validation": false,
+      "name": "type",
+      "type": "text",
+      "validation_container_message": "",
+      "validation_container_variable": "",
+      "validation_script": ""
+    },
+    "type_platform": {
+      "formula": "",
+      "initial_value": "",
+      "is_primary_key": false,
+      "is_use_regex": false,
+      "is_use_validation": false,
+      "name": "type_platform",
+      "type": "number",
+      "validation_container_message": "",
+      "validation_container_variable": "",
+      "validation_script": ""
+    },
+    "updated_at_offline": {
+      "formula": "",
+      "initial_value": "",
+      "is_primary_key": false,
+      "is_use_regex": false,
+      "is_use_validation": false,
+      "name": "updated_at_offline",
+      "type": "timestamp",
+      "validation_container_message": "",
+      "validation_container_variable": "",
+      "validation_script": ""
+    },
+    "updated_by_project_user": {
+      "formula": "",
+      "initial_value": "",
+      "is_primary_key": false,
+      "is_use_regex": false,
+      "is_use_validation": false,
+      "name": "updated_by_project_user",
+      "type": "text",
+      "validation_container_message": "",
+      "validation_container_variable": "",
+      "validation_script": ""
+    }
+  },
+  "company_id": 28086,
+  "created_at": 1783046680509,
+  "created_by": 197826,
+  "data_type": "page",
+  "id": "hfUxWlqBevd0",
+  "is_disable_audit_log": false,
+  "is_limit_maximum_data": false,
+  "is_offline_mode": false,
+  "is_public": false,
+  "is_share_device_info": false,
+  "is_use_workflow": false,
+  "name": "page",
+  "native_columns": [
+    "id",
+    "flow_status",
+    "created_at",
+    "updated_at",
+    "created_by",
+    "updated_by",
+    "created_by_project_user",
+    "updated_by_project_user",
+    "page_id",
+    "name",
+    "type",
+    "type_platform",
+    "show_option",
+    "parent_id",
+    "order",
+    "icon_key",
+    "components"
+  ],
+  "primary_key": "page_id",
+  "rate_limit": {
+    "active": false,
+    "limit_per_second": 0
+  },
+  "size": "",
+  "tablegroup_id": "GkAzOudUYcy4",
+  "type": "transaction",
+  "version": 0,
+  "workflow": {
+    "approver_by": "by_organigram",
+    "approver_selection": "",
+    "by_organigram_id": null,
+    "default_rule": {
+      "rule_id": 0
+    },
+    "function_name": "",
+    "type": ""
+  }
+}

@@ -1,0 +1,381 @@
+{
+  "approval_flow": {
+    "config": {
+      "workflow_function_name": ""
+    },
+    "is_active": false
+  },
+  "class": {
+    "navigate_to": {
+      "application_id": {
+        "formula": "",
+        "initial_value": "",
+        "is_primary_key": false,
+        "is_use_regex": false,
+        "is_use_validation": false,
+        "name": "application_id",
+        "type": "text",
+        "validation_container_message": "",
+        "validation_container_variable": "",
+        "validation_script": ""
+      },
+      "application_name": {
+        "formula": "",
+        "initial_value": "",
+        "is_primary_key": false,
+        "is_use_regex": false,
+        "is_use_validation": false,
+        "name": "application_name",
+        "type": "text",
+        "validation_container_message": "",
+        "validation_container_variable": "",
+        "validation_script": ""
+      },
+      "data_display": {
+        "formula": "",
+        "initial_value": "",
+        "is_primary_key": false,
+        "is_use_regex": false,
+        "is_use_validation": false,
+        "name": "data_display",
+        "type": "text",
+        "validation_container_message": "",
+        "validation_container_variable": "",
+        "validation_script": ""
+      },
+      "form_ui_id": {
+        "formula": "",
+        "initial_value": "",
+        "is_primary_key": false,
+        "is_use_regex": false,
+        "is_use_validation": false,
+        "name": "form_ui_id",
+        "type": "text",
+        "validation_container_message": "",
+        "validation_container_variable": "",
+        "validation_script": ""
+      },
+      "open_link_in": {
+        "formula": "",
+        "initial_value": "",
+        "is_primary_key": false,
+        "is_use_regex": false,
+        "is_use_validation": false,
+        "name": "open_link_in",
+        "type": "text",
+        "validation_container_message": "",
+        "validation_container_variable": "",
+        "validation_script": ""
+      },
+      "page_id": {
+        "formula": "",
+        "initial_value": "",
+        "is_primary_key": false,
+        "is_use_regex": false,
+        "is_use_validation": false,
+        "name": "page_id",
+        "type": "text",
+        "validation_container_message": "",
+        "validation_container_variable": "",
+        "validation_script": ""
+      },
+      "page_name": {
+        "formula": "",
+        "initial_value": "",
+        "is_primary_key": false,
+        "is_use_regex": false,
+        "is_use_validation": false,
+        "name": "page_name",
+        "type": "text",
+        "validation_container_message": "",
+        "validation_container_variable": "",
+        "validation_script": ""
+      },
+      "query_params": {
+        "formula": "",
+        "initial_value": "",
+        "is_primary_key": false,
+        "is_use_regex": false,
+        "is_use_validation": false,
+        "name": "query_params",
+        "type": "text",
+        "validation_container_message": "",
+        "validation_container_variable": "",
+        "validation_script": ""
+      },
+      "record_id": {
+        "formula": "",
+        "initial_value": "",
+        "is_primary_key": false,
+        "is_use_regex": false,
+        "is_use_validation": false,
+        "name": "record_id",
+        "type": "text",
+        "validation_container_message": "",
+        "validation_container_variable": "",
+        "validation_script": ""
+      },
+      "type": {
+        "formula": "",
+        "initial_value": "",
+        "is_primary_key": false,
+        "is_use_regex": false,
+        "is_use_validation": false,
+        "name": "type",
+        "type": "text",
+        "validation_container_message": "",
+        "validation_container_variable": "",
+        "validation_script": ""
+      }
+    },
+    "object": {
+      "email": {
+        "formula": "",
+        "initial_value": "",
+        "is_primary_key": false,
+        "is_use_regex": false,
+        "is_use_validation": false,
+        "name": "email",
+        "type": "text",
+        "validation_container_message": "",
+        "validation_container_variable": "",
+        "validation_script": ""
+      },
+      "id": {
+        "formula": "",
+        "initial_value": "",
+        "is_primary_key": false,
+        "is_use_regex": false,
+        "is_use_validation": false,
+        "name": "id",
+        "type": "text",
+        "validation_container_message": "",
+        "validation_container_variable": "",
+        "validation_script": ""
+      },
+      "name": {
+        "formula": "",
+        "initial_value": "",
+        "is_primary_key": false,
+        "is_use_regex": false,
+        "is_use_validation": false,
+        "name": "name",
+        "type": "text",
+        "validation_container_message": "",
+        "validation_container_variable": "",
+        "validation_script": ""
+      }
+    }
+  },
+  "columns": {
+    "content": {
+      "formula": "",
+      "initial_value": "",
+      "is_primary_key": false,
+      "is_use_regex": false,
+      "is_use_validation": false,
+      "name": "content",
+      "type": "text",
+      "validation_container_message": "",
+      "validation_container_variable": "",
+      "validation_script": ""
+    },
+    "created_at": {
+      "formula": "",
+      "initial_value": "",
+      "is_primary_key": false,
+      "is_use_regex": false,
+      "is_use_validation": false,
+      "name": "created_at",
+      "type": "timestamp",
+      "validation_container_message": "",
+      "validation_container_variable": "",
+      "validation_script": ""
+    },
+    "created_at_offline": {
+      "formula": "",
+      "initial_value": "",
+      "is_primary_key": false,
+      "is_use_regex": false,
+      "is_use_validation": false,
+      "name": "created_at_offline",
+      "type": "timestamp",
+      "validation_container_message": "",
+      "validation_container_variable": "",
+      "validation_script": ""
+    },
+    "created_by": {
+      "formula": "",
+      "initial_value": "",
+      "is_primary_key": false,
+      "is_use_regex": false,
+      "is_use_validation": false,
+      "name": "created_by",
+      "type": "number",
+      "validation_container_message": "",
+      "validation_container_variable": "",
+      "validation_script": ""
+    },
+    "created_by_project_user": {
+      "formula": "",
+      "initial_value": "",
+      "is_primary_key": false,
+      "is_use_regex": false,
+      "is_use_validation": false,
+      "name": "created_by_project_user",
+      "type": "text",
+      "validation_container_message": "",
+      "validation_container_variable": "",
+      "validation_script": ""
+    },
+    "flow_status": {
+      "formula": "",
+      "initial_value": "",
+      "is_primary_key": false,
+      "is_use_regex": false,
+      "is_use_validation": false,
+      "name": "flow_status",
+      "type": "text",
+      "validation_container_message": "",
+      "validation_container_variable": "",
+      "validation_script": ""
+    },
+    "navigate_to": {
+      "formula": "",
+      "initial_value": "",
+      "is_primary_key": false,
+      "is_use_regex": false,
+      "is_use_validation": false,
+      "name": "navigate_to",
+      "type": "[]navigate_to",
+      "validation_container_message": "",
+      "validation_container_variable": "",
+      "validation_script": ""
+    },
+    "notification_id": {
+      "formula": "",
+      "initial_value": "",
+      "is_primary_key": true,
+      "is_use_regex": false,
+      "is_use_validation": false,
+      "name": "notification_id",
+      "type": "text",
+      "validation_container_message": "",
+      "validation_container_variable": "",
+      "validation_script": ""
+    },
+    "read_at": {
+      "formula": "",
+      "initial_value": "",
+      "is_primary_key": false,
+      "is_use_regex": false,
+      "is_use_validation": false,
+      "name": "read_at",
+      "type": "timestamp",
+      "validation_container_message": "",
+      "validation_container_variable": "",
+      "validation_script": ""
+    },
+    "recipient": {
+      "formula": "",
+      "initial_value": "",
+      "is_primary_key": false,
+      "is_use_regex": false,
+      "is_use_validation": false,
+      "name": "recipient",
+      "type": "object",
+      "validation_container_message": "",
+      "validation_container_variable": "",
+      "validation_script": ""
+    },
+    "title": {
+      "formula": "",
+      "initial_value": "",
+      "is_primary_key": false,
+      "is_use_regex": false,
+      "is_use_validation": false,
+      "name": "title",
+      "type": "text",
+      "validation_container_message": "",
+      "validation_container_variable": "",
+      "validation_script": ""
+    },
+    "updated_at_offline": {
+      "formula": "",
+      "initial_value": "",
+      "is_primary_key": false,
+      "is_use_regex": false,
+      "is_use_validation": false,
+      "name": "updated_at_offline",
+      "type": "timestamp",
+      "validation_container_message": "",
+      "validation_container_variable": "",
+      "validation_script": ""
+    },
+    "updated_by_project_user": {
+      "formula": "",
+      "initial_value": "",
+      "is_primary_key": false,
+      "is_use_regex": false,
+      "is_use_validation": false,
+      "name": "updated_by_project_user",
+      "type": "text",
+      "validation_container_message": "",
+      "validation_container_variable": "",
+      "validation_script": ""
+    },
+    "workflow_id": {
+      "formula": "",
+      "initial_value": "",
+      "is_primary_key": false,
+      "is_use_regex": false,
+      "is_use_validation": false,
+      "name": "workflow_id",
+      "type": "text",
+      "validation_container_message": "",
+      "validation_container_variable": "",
+      "validation_script": ""
+    }
+  },
+  "company_id": 28086,
+  "created_at": 1789151974088,
+  "created_by": 197826,
+  "data_type": "notification",
+  "id": "lNYfQZ9iIGdV",
+  "is_disable_audit_log": false,
+  "is_limit_maximum_data": false,
+  "is_offline_mode": false,
+  "is_public": false,
+  "is_share_device_info": false,
+  "is_use_workflow": false,
+  "name": "notification",
+  "native_columns": [
+    "id",
+    "flow_status",
+    "created_at",
+    "updated_at",
+    "created_by",
+    "updated_by",
+    "created_by_project_user",
+    "updated_by_project_user"
+  ],
+  "primary_key": "notification_id",
+  "rate_limit": {
+    "active": false,
+    "limit_per_second": 0
+  },
+  "size": "",
+  "tablegroup_id": "GkAzOudUYcy4",
+  "type": "transaction",
+  "version": 0,
+  "workflow": {
+    "approver_by": "by_organigram",
+    "approver_selection": "",
+    "by_organigram_id": null,
+    "default_rule": {
+      "rule_id": 0
+    },
+    "function_name": "",
+    "type": ""
+  }
+}

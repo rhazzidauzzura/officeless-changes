@@ -1,0 +1,98 @@
+{
+  "actions": [],
+  "company_id": 28086,
+  "created_at": 1787678430228,
+  "created_by": 197826,
+  "description": "tes-notif-mitra",
+  "disable_run_history": false,
+  "id": "bghHse8DR",
+  "is_active": true,
+  "is_deleted": false,
+  "is_stored_to_eventsam": true,
+  "is_sync": false,
+  "metadata": {},
+  "name": "tes-notif-mitra",
+  "project_id": "wGki1P0fpJch",
+  "trigger": {
+    "api": {
+      "max_length_char_payload": 0,
+      "method": "",
+      "rate_limit": 0,
+      "url": ""
+    },
+    "api_v2": {
+      "max_length_char_payload": 0,
+      "method": "get",
+      "rate_limit": 0,
+      "url": "tesnotifmitra"
+    },
+    "block_name": "API call 1",
+    "container_response": "res",
+    "container_variable": "req",
+    "dedicated_job": {
+      "counter_total": 0,
+      "name": ""
+    },
+    "event": {
+      "name": ""
+    },
+    "external_source_function": {
+      "name": ""
+    },
+    "form": {
+      "event": "",
+      "form_data_id": "",
+      "form_data_name": "",
+      "tablegroup_id": ""
+    },
+    "form_interaction_function": {
+      "name": ""
+    },
+    "function": {
+      "name": ""
+    },
+    "id": "xR2Ny68DRz",
+    "job": {
+      "name": ""
+    },
+    "scheduler": {
+      "days": null,
+      "frequency": "",
+      "start_date": "0001-01-01T00:00:00Z",
+      "time": null,
+      "timezone": ""
+    },
+    "sdk_function": {
+      "name": "",
+      "required_authorization": false
+    },
+    "type": "api_v2",
+    "webhook": {
+      "max_length_char_payload": 0,
+      "method": "",
+      "rate_limit": 0,
+      "url": ""
+    },
+    "webhook_mekari_product": {
+      "event": "",
+      "max_length_char_payload": 0,
+      "method": "",
+      "product": "",
+      "rate_limit": 0,
+      "url": "",
+      "webhook_admin": {
+        "event_id": "",
+        "id": "",
+        "uid": ""
+      }
+    },
+    "webhook_v2": {
+      "max_length_char_payload": 0,
+      "method": "",
+      "rate_limit": 0,
+      "url": ""
+    }
+  },
+  "user_company_id": 197826,
+  "version": 2
+}

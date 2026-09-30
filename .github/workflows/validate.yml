@@ -1,0 +1,27 @@
+name: validate-officeless
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Validate JSON, JS syntax, file refs, secrets
+        run: python3 tools/officeless_sync.py check
+      - name: Summarize changed Officeless resources
+        if: github.event_name == 'pull_request'
+        run: |
+          git fetch origin ${{ github.base_ref }} --depth=1
+          echo "### Resource Officeless yang berubah" >> $GITHUB_STEP_SUMMARY
+          git diff --name-only origin/${{ github.base_ref }}...HEAD -- projects/ \
+            | awk -F/ '{print "- " $2 " / " $3 " / " $4}' | sort -u >> $GITHUB_STEP_SUMMARY

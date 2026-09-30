@@ -1,0 +1,433 @@
+{
+  "actions": [
+    {
+      "approval_flow": null,
+      "block_name": "Guard - Only Run On 1 January",
+      "compress_file_base64": null,
+      "compress_file_company_drive": null,
+      "compress_file_multiple_url": null,
+      "conditional": {
+        "action_false": null,
+        "action_true": null,
+        "query": ""
+      },
+      "container_variable": "_varGuard",
+      "custom_response": null,
+      "data": null,
+      "data_connection": {
+        "connection": "",
+        "do": "",
+        "query": ""
+      },
+      "dedicated_job": {
+        "counter_variable": "",
+        "input": "",
+        "name": ""
+      },
+      "external_api": {
+        "body": "",
+        "header": null,
+        "method": "",
+        "url": ""
+      },
+      "filter": null,
+      "filter_v2": null,
+      "form_data": null,
+      "form_data_id": "",
+      "function": {
+        "input": "",
+        "name": ""
+      },
+      "id": "F_JzsYfvRm",
+      "is_async": false,
+      "is_auto_generated_file_url": null,
+      "is_disable": false,
+      "is_disable_log": false,
+      "javascript": "@file:01-guard-only-run-on-1-january.js",
+      "job": {
+        "input": "",
+        "name": ""
+      },
+      "limit": "",
+      "new_filter": null,
+      "page": "",
+      "plugin_api": null,
+      "qontak_send_whatsapp": null,
+      "redirect_page": null,
+      "return_message": null,
+      "send_notification": {
+        "apps": "",
+        "content": "",
+        "heading": "",
+        "is_custom_redirect": false,
+        "script_redirect": "",
+        "type": "",
+        "user_company_ids": "",
+        "variable_redirect": ""
+      },
+      "sort": null,
+      "sum_formdata": {
+        "column": "",
+        "filter": null
+      },
+      "tablegroup_id": "",
+      "talenta_get_attendances": null,
+      "timeout_millisecond": 0,
+      "type": "javascript",
+      "while": {
+        "action_done": null,
+        "action_while": null,
+        "variable_source": ""
+      }
+    },
+    {
+      "approval_flow": null,
+      "block_name": "Get All Accrual Counters",
+      "compress_file_base64": null,
+      "compress_file_company_drive": null,
+      "compress_file_multiple_url": null,
+      "conditional": {
+        "action_false": null,
+        "action_true": null,
+        "query": ""
+      },
+      "container_variable": "all_counters",
+      "custom_response": null,
+      "data": null,
+      "data_connection": {
+        "connection": "",
+        "do": "",
+        "query": ""
+      },
+      "dedicated_job": {
+        "counter_variable": "",
+        "input": "",
+        "name": ""
+      },
+      "external_api": {
+        "body": "",
+        "header": null,
+        "method": "",
+        "url": ""
+      },
+      "filter": {},
+      "filter_v2": [
+        {
+          "and": [
+            {
+              "ids": {
+                "operator": "is_not_null"
+              }
+            }
+          ]
+        }
+      ],
+      "form_data": null,
+      "form_data_id": "uhfSnEG21YXz",
+      "function": {
+        "input": "",
+        "name": ""
+      },
+      "id": "KlJksLfDRZ",
+      "is_async": false,
+      "is_auto_generated_file_url": null,
+      "is_disable": false,
+      "is_disable_log": false,
+      "javascript": "",
+      "job": {
+        "input": "",
+        "name": ""
+      },
+      "limit": "0",
+      "new_filter": null,
+      "page": "0",
+      "plugin_api": null,
+      "qontak_send_whatsapp": null,
+      "redirect_page": null,
+      "return_message": null,
+      "send_notification": {
+        "apps": "",
+        "content": "",
+        "heading": "",
+        "is_custom_redirect": false,
+        "script_redirect": "",
+        "type": "",
+        "user_company_ids": "",
+        "variable_redirect": ""
+      },
+      "sort": {},
+      "sum_formdata": {
+        "column": "",
+        "filter": null
+      },
+      "tablegroup_id": "GkAzOudUYcy4",
+      "talenta_get_attendances": null,
+      "timeout_millisecond": 0,
+      "type": "find_records",
+      "while": {
+        "action_done": null,
+        "action_while": null,
+        "variable_source": ""
+      }
+    },
+    {
+      "approval_flow": null,
+      "block_name": "Build Update-Balance Payload and Push to Talenta",
+      "compress_file_base64": null,
+      "compress_file_company_drive": null,
+      "compress_file_multiple_url": null,
+      "conditional": {
+        "action_false": null,
+        "action_true": null,
+        "query": ""
+      },
+      "container_variable": "push_result",
+      "custom_response": null,
+      "data": null,
+      "data_connection": {
+        "connection": "",
+        "do": "",
+        "query": ""
+      },
+      "dedicated_job": {
+        "counter_variable": "",
+        "input": "",
+        "name": ""
+      },
+      "external_api": {
+        "body": "",
+        "header": null,
+        "method": "",
+        "url": ""
+      },
+      "filter": null,
+      "filter_v2": null,
+      "form_data": null,
+      "form_data_id": "",
+      "function": {
+        "input": "",
+        "name": ""
+      },
+      "id": "KlJzsYBDgM",
+      "is_async": false,
+      "is_auto_generated_file_url": null,
+      "is_disable": false,
+      "is_disable_log": false,
+      "javascript": "@file:03-build-update-balance-payload-and-push-to-talenta.js",
+      "job": {
+        "input": "",
+        "name": ""
+      },
+      "limit": "",
+      "new_filter": null,
+      "page": "",
+      "plugin_api": null,
+      "qontak_send_whatsapp": null,
+      "redirect_page": null,
+      "return_message": null,
+      "send_notification": {
+        "apps": "",
+        "content": "",
+        "heading": "",
+        "is_custom_redirect": false,
+        "script_redirect": "",
+        "type": "",
+        "user_company_ids": "",
+        "variable_redirect": ""
+      },
+      "sort": null,
+      "sum_formdata": {
+        "column": "",
+        "filter": null
+      },
+      "tablegroup_id": "",
+      "talenta_get_attendances": null,
+      "timeout_millisecond": 0,
+      "type": "javascript",
+      "while": {
+        "action_done": null,
+        "action_while": null,
+        "variable_source": ""
+      }
+    },
+    {
+      "approval_flow": null,
+      "block_name": "TODO - Reset Counters After Push (see caveat)",
+      "compress_file_base64": null,
+      "compress_file_company_drive": null,
+      "compress_file_multiple_url": null,
+      "conditional": {
+        "action_false": null,
+        "action_true": null,
+        "query": ""
+      },
+      "container_variable": "_varTodoReset",
+      "custom_response": null,
+      "data": null,
+      "data_connection": {
+        "connection": "",
+        "do": "",
+        "query": ""
+      },
+      "dedicated_job": {
+        "counter_variable": "",
+        "input": "",
+        "name": ""
+      },
+      "external_api": {
+        "body": "",
+        "header": null,
+        "method": "",
+        "url": ""
+      },
+      "filter": null,
+      "filter_v2": null,
+      "form_data": null,
+      "form_data_id": "",
+      "function": {
+        "input": "",
+        "name": ""
+      },
+      "id": "KlJksLBvR7",
+      "is_async": false,
+      "is_auto_generated_file_url": null,
+      "is_disable": false,
+      "is_disable_log": false,
+      "javascript": "@file:04-todo-reset-counters-after-push-see-caveat.js",
+      "job": {
+        "input": "",
+        "name": ""
+      },
+      "limit": "",
+      "new_filter": null,
+      "page": "",
+      "plugin_api": null,
+      "qontak_send_whatsapp": null,
+      "redirect_page": null,
+      "return_message": null,
+      "send_notification": {
+        "apps": "",
+        "content": "",
+        "heading": "",
+        "is_custom_redirect": false,
+        "script_redirect": "",
+        "type": "",
+        "user_company_ids": "",
+        "variable_redirect": ""
+      },
+      "sort": null,
+      "sum_formdata": {
+        "column": "",
+        "filter": null
+      },
+      "tablegroup_id": "",
+      "talenta_get_attendances": null,
+      "timeout_millisecond": 0,
+      "type": "javascript",
+      "while": {
+        "action_done": null,
+        "action_while": null,
+        "variable_source": ""
+      }
+    }
+  ],
+  "company_id": 28086,
+  "created_at": 1783047693132,
+  "created_by": 197826,
+  "description": "CR PT Asteros Sinar Teknologi - Push accrued Cuti Wajib & Cuti Tahunan counters ke Talenta time-off balance setiap 1 Januari (effective 1 Jan - expired 31 Des tahun berjalan), lalu reset counter. Scheduler harian, guard hanya eksekusi tanggal 1 Januari.",
+  "disable_run_history": false,
+  "id": "F_1zsLfvg",
+  "is_active": false,
+  "is_deleted": false,
+  "is_stored_to_eventsam": true,
+  "is_sync": false,
+  "metadata": {
+    "has_plugin_api": false
+  },
+  "name": "[Talenta] Annual Leave Balance Push",
+  "project_id": "wGki1P0fpJch",
+  "trigger": {
+    "api": {
+      "max_length_char_payload": 0,
+      "method": "",
+      "rate_limit": 0,
+      "url": ""
+    },
+    "api_v2": {
+      "max_length_char_payload": 0,
+      "method": "",
+      "rate_limit": 0,
+      "url": ""
+    },
+    "block_name": "Daily Scheduler (guard checks Jan 1)",
+    "container_response": "",
+    "container_variable": "req",
+    "dedicated_job": {
+      "counter_total": 0,
+      "name": ""
+    },
+    "event": {
+      "name": ""
+    },
+    "external_source_function": {
+      "name": ""
+    },
+    "form": {
+      "event": "",
+      "form_data_id": "",
+      "form_data_name": "",
+      "tablegroup_id": ""
+    },
+    "form_interaction_function": {
+      "name": ""
+    },
+    "function": {
+      "name": ""
+    },
+    "id": "FlJksLfvgz",
+    "job": {
+      "name": ""
+    },
+    "scheduler": {
+      "days": null,
+      "frequency": "daily",
+      "start_date": "2026-07-04T00:00:00Z",
+      "time": [
+        "02:00"
+      ],
+      "timezone": "Asia/Jakarta"
+    },
+    "sdk_function": {
+      "name": "",
+      "required_authorization": false
+    },
+    "type": "scheduler",
+    "webhook": {
+      "max_length_char_payload": 0,
+      "method": "",
+      "rate_limit": 0,
+      "url": ""
+    },
+    "webhook_mekari_product": {
+      "event": "",
+      "max_length_char_payload": 0,
+      "method": "",
+      "product": "",
+      "rate_limit": 0,
+      "url": "",
+      "webhook_admin": {
+        "event_id": "",
+        "id": "",
+        "uid": ""
+      }
+    },
+    "webhook_v2": {
+      "max_length_char_payload": 0,
+      "method": "",
+      "rate_limit": 0,
+      "url": ""
+    }
+  },
+  "user_company_id": 197826,
+  "version": 1
+}

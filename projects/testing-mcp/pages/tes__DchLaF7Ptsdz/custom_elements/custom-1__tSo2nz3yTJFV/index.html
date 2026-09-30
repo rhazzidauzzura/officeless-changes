@@ -1,0 +1,67 @@
+<main class="learning-path" aria-labelledby="page-title">
+  <section class="hero">
+    <div class="hero__content">
+      <p class="eyebrow">Officeless Academy</p>
+      <h1 id="page-title">Apps Builder Learning Path</h1>
+      <p class="hero__description">Kuasai proses membangun aplikasi Officeless dari fondasi, struktur data, hingga troubleshooting melalui 8 modul terarah.</p>
+      <div class="hero__meta" aria-label="Informasi kelas"><span>8 modul</span><span id="totalDuration">Total 0 menit</span><span>Recording & survei tersedia</span></div>
+    </div>
+    <div class="hero__progress" aria-label="Ringkasan progres belajar">
+      <div class="progress-label"><span>Progres keseluruhan</span><strong id="progressPercent">0%</strong></div>
+      <div class="progress-track" role="progressbar" aria-label="Progres modul" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div class="progress-track__bar" id="progressBar"></div></div>
+      <p class="progress-caption" id="progressCaption">0 dari 8 modul selesai</p>
+    </div>
+  </section>
+
+  <section aria-labelledby="curriculum-title">
+    <div class="toolbar">
+      <div><h2 id="curriculum-title">Kurikulum pembelajaran</h2><p>Ikuti modul secara berurutan atau pilih topik sesuai kebutuhan.</p></div>
+      <div class="filters" role="group" aria-label="Filter modul">
+        <button class="filter-btn is-active" type="button" data-filter="all" aria-pressed="true">Semua</button>
+        <button class="filter-btn" type="button" data-filter="active" aria-pressed="false">Berjalan</button>
+        <button class="filter-btn" type="button" data-filter="completed" aria-pressed="false">Selesai</button>
+      </div>
+    </div>
+    <div class="path-list" id="pathList"></div>
+    <div class="empty-state" id="emptyState" hidden>Tidak ada modul dalam kategori ini.</div>
+  </section>
+
+  <dialog class="detail-panel" id="detailDialog" aria-labelledby="detailTitle">
+    <div class="detail-inner">
+      <div class="detail-head">
+        <div><p class="detail-index" id="detailIndex"></p><h3 id="detailTitle"></h3><div class="detail-meta"><span class="meta-chip" id="detailDuration"></span><span class="meta-chip">Recording</span><span class="meta-chip">Survei penilaian</span></div></div>
+        <button class="close-btn" id="closeDialog" type="button" aria-label="Tutup detail">&times;</button>
+      </div>
+      <div class="detail-tabs" role="tablist" aria-label="Konten modul">
+        <button class="detail-tab is-active" id="tabOverview" type="button" role="tab" aria-selected="true" aria-controls="panelOverview" data-tab="overview">Detail</button>
+        <button class="detail-tab" id="tabRecording" type="button" role="tab" aria-selected="false" aria-controls="panelRecording" data-tab="recording">Recording</button>
+        <button class="detail-tab" id="tabSurvey" type="button" role="tab" aria-selected="false" aria-controls="panelSurvey" data-tab="survey">Survei</button>
+      </div>
+      <section class="tab-panel" id="panelOverview" role="tabpanel" aria-labelledby="tabOverview" data-panel="overview">
+        <p class="detail-description" id="detailDescription"></p>
+        <div class="detail-box"><strong>Hasil yang akan dipelajari</strong><ul id="detailOutcomes"></ul></div>
+        <div class="detail-box is-neutral"><strong>Pokok pembahasan</strong><ul id="detailTopics"></ul></div>
+      </section>
+      <section class="tab-panel" id="panelRecording" role="tabpanel" aria-labelledby="tabRecording" data-panel="recording" hidden>
+        <div class="recording-player">
+          <video class="recording-video" id="recordingVideo" controls controlslist="nodownload" preload="metadata" playsinline hidden>Browser Anda tidak mendukung pemutar video.</video>
+          <div class="recording-unavailable" id="recordingUnavailable">
+            <div><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M8 5v14l11-7L8 5Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="1.5"/></svg><h4>Recording belum terhubung</h4><p>Tambahkan URL MP4/WebM atau URL embed YouTube/Vimeo pada properti <b>recordingUrl</b> modul ini.</p></div>
+          </div>
+        </div>
+        <div class="source-row"><strong>Sumber:</strong><span id="recordingSource">Belum dikonfigurasi</span></div>
+        <p class="recording-note">Video menggunakan kontrol pemutar asli dan dapat diputar langsung saat sumber recording tersedia.</p>
+      </section>
+      <section class="tab-panel" id="panelSurvey" role="tabpanel" aria-labelledby="tabSurvey" data-panel="survey" hidden>
+        <form class="survey-form" id="surveyForm">
+          <fieldset class="survey-question"><legend>Seberapa mudah materi ini dipahami? <span class="required">*</span></legend><div class="rating-options" id="understandingRating"></div><div class="rating-hints"><span>Sulit</span><span>Sangat mudah</span></div></fieldset>
+          <fieldset class="survey-question"><legend>Seberapa relevan materi untuk pekerjaan Anda? <span class="required">*</span></legend><div class="rating-options" id="relevanceRating"></div><div class="rating-hints"><span>Tidak relevan</span><span>Sangat relevan</span></div></fieldset>
+          <label><span class="field-label">Apa hal paling berguna dari modul ini?</span><textarea id="surveyFeedback" maxlength="500" placeholder="Tulis tanggapan Anda (opsional)"></textarea></label>
+          <p class="survey-message" id="surveyMessage" role="status" hidden></p>
+          <div class="survey-actions"><button class="primary-btn" type="submit">Kirim penilaian</button></div>
+        </form>
+      </section>
+      <div class="detail-footer"><button class="secondary-btn" id="cancelDialog" type="button">Tutup</button><button class="primary-btn" id="dialogComplete" type="button">Tandai selesai</button></div>
+    </div>
+  </dialog>
+</main>
