@@ -68,3 +68,4 @@ Snapshot ini bisa dijadwalkan harian.
 | `python3 tools/officeless_sync.py assemble workflow <dir>` | File repo → payload update workflow |
 | `python3 tools/officeless_sync.py assemble custom_element <dir>` | File repo → payload update custom element |
 | `python3 tools/officeless_sync.py check` | Validasi JSON, sintaks JS, `@file:` reference, dan deteksi secret |
+# officeless-changes
