@@ -8,6 +8,7 @@ Commands
   assemble workflow <dir>                        files -> payload for studio_update_workflow
   assemble custom_element <dir>                  files -> payload for studio_update_custom_element
   check                                          validate JSON, JS syntax, secrets
+  changes [--base REF]                           list changed resources vs HEAD (or REF)
 
 kind = workflow | workflows | form | tables | page | custom_layout | custom_element
 """
@@ -201,6 +202,42 @@ def check() -> int:
     return 1 if problems else 0
 
 
+# ---------------------------------------------------------------- changes
+def changes(base: str = "HEAD") -> list:
+    """Resources whose files differ from `base` (working tree incl. untracked), grouped per resource."""
+    out = subprocess.run(["git", "status", "--porcelain", "--untracked-files=all", "--", "projects/"],
+                         cwd=ROOT, capture_output=True, text=True, check=True).stdout
+    if base != "HEAD":
+        out += subprocess.run(["git", "diff", "--name-status", base, "--", "projects/"],
+                              cwd=ROOT, capture_output=True, text=True, check=True).stdout
+    res = {}
+    for line in out.splitlines():
+        if not line.strip():
+            continue
+        if "\t" in line:                       # git diff --name-status: "M\tpath"
+            code, path = line.split("\t", 1)
+        else:                                  # git status --porcelain: "XY path"
+            code, path = line[:2].strip(), line[3:]
+        code = code[:1] if code != "??" else code
+        parts = path.split("/")
+        if len(parts) < 4:
+            continue
+        project, kind = parts[1], parts[2]
+        leaf = parts[3] if kind in ("workflows", "pages") else parts[3].rsplit(".", 1)[0]
+        name, _, rid = leaf.rpartition("__")
+        key = (project, kind, leaf)
+        r = res.setdefault(key, {"project": project, "kind": kind.rstrip("s"), "name": name or leaf,
+                                 "id": rid, "files": [], "status": set()})
+        r["files"].append(path)
+        r["status"].add({"??": "new", "A": "new", "D": "deleted"}.get(code, "modified"))
+    items = []
+    for r in res.values():
+        s = r.pop("status")
+        r["status"] = "new" if s == {"new"} else "deleted" if s == {"deleted"} else "modified"
+        items.append(r)
+    return sorted(items, key=lambda x: (x["project"], x["kind"], x["name"]))
+
+
 # ---------------------------------------------------------------- cli
 def main():
     ap = argparse.ArgumentParser()
@@ -214,10 +251,15 @@ def main():
     a.add_argument("kind", choices=["workflow", "custom_element"])
     a.add_argument("dir")
     sub.add_parser("check")
+    c = sub.add_parser("changes")
+    c.add_argument("--base", default="HEAD", help="compare against this ref (default: HEAD)")
     args = ap.parse_args()
 
     if args.cmd == "check":
         sys.exit(check())
+    if args.cmd == "changes":
+        print(json.dumps(changes(args.base), indent=2, ensure_ascii=False))
+        return
     if args.cmd == "assemble":
         fn = assemble_workflow if args.kind == "workflow" else assemble_custom_element
         print(json.dumps(fn(Path(args.dir)), indent=2, ensure_ascii=False))
